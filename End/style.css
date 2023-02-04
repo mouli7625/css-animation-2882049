@@ -5,6 +5,7 @@ body {
   margin-top:3em;
   background-color: #6F7295;
   perspective: 1000px;
+  /*lower the perspective more dramatic it is , wise to set on high*/
 }
 
 .wrap {
@@ -14,7 +15,8 @@ body {
 img {width: 300px;}
 
 .robot {
- transform: translate3d(100px, 200px, -100px);
+  /*transform: rotateX(45deg) rotateY(45deg) ;*/
+ transform: translate3d(100px, 200px,-90px);
 }
 
 
