@@ -9,7 +9,14 @@ img {width: 150px;}
 
 .robot {
 
+ /* transform: translate(100px, 100px) scale(2) rotate(45deg);*/
+transform: scale(2) rotate(45deg) translate(100px, 100px);
+/* both are diff*/
+
+  
+
 }
+
 
 
 
