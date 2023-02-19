@@ -1,11 +1,14 @@
 .sticker {
   animation: rotate 10s linear infinite;
+  animation-play-state: running;
 }
+.sticker:hover{
+  animation-play-state: paused;
+
+}
+/*animation-play-state: running; - it will play the animation from where it is paused*/
 
 @keyframes rotate {
-  0% {
-    transform: rotate(0);
-  }
   100% {
     transform: rotate(360deg);
   }
