@@ -1,6 +1,15 @@
 .bot {
   width:100px;
+  
   offset-path: path('M.542,219.99c540.71,0,477.005-218.911,277.995-218.37S7.081,219.99,539.573,219.99');
+  animation: pop 9s ease-in-out both;/*changes*/
+  offset-rotate: auto ;/*changes*/
+}
+
+@keyframes pop {
+  0%{offset-distance: 0%;}/*changes*/
+  100%{offset-distance: 100%;}/*changes*/
+  
 }
 
 /* other styles */
